@@ -1,0 +1,121 @@
+<html>
+<body>
+
+Sign up:<form method="post" action="http://52.88.43.163:3000/sign_up">	
+	
+	Name:<input type="text" name="username" value="">
+	Password:<input type="text" name="password" value="">
+	Email:<input type="text" name="email" value="">
+	User type:<input type="text" name="user_type" value="">	
+	User longitude:<input type="text" name="longitude" value="">
+	User lattitude:<input type="text" name="lattitude" value="">
+	Device id:<input type="text" name="device_id" value="">		
+	Platform Status:<input type="text" name="platform_status" value="">
+	<input type='submit' value="submit">
+</form>
+
+Sign In:<form method="post" action="http://52.88.43.163:3000/sign_in">	
+	Name:<input type="text" name="username" value="">
+	Password:<input type="text" name="password" value="">
+	Email:<input type="text" name="email" value="">
+	User type:<input type="text" name="user_type" value="">	
+	Facebook id:<input type="text" name="facebook_id" value="">
+	User longitude:<input type="text" name="longitude" value="">
+	User lattitude:<input type="text" name="lattitude" value="">
+	Profile pic:<input type="text" name="profile_pic" value="">		
+	Device id:<input type="text" name="device_id" value="">		
+	Platform Status:<input type="text" name="platform_status" value="">
+	<input type='submit' value="submit">
+</form>
+
+Edit profile:<form method="post" action="http://52.88.43.163:3000/edit_profile" >	
+	Name:<input type="text" name="username" value="">
+	Profile pic:<input type="text" name="profile_pic" value="">
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+
+Change password<form method="post" action="http://52.88.43.163:3000/change_password">	
+	Old password:<input type="text" name="old_password" value="">
+	New password:<input type="text" name="new_password" value="">
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+
+Forgot password<form method="post" action="http://52.88.43.163:3000/forgot_password">	
+	Email:<input type="text" name="email" value="">
+	
+	<input type='submit' value="submit">
+</form>
+
+Logout<form method="post" action="http://52.88.43.163:3000/logout">
+	Device id:<input type="text" name="device_id" value="">		
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+
+
+Create news:<form method="post" action="http://52.88.43.163:3000/create_news"  enctype="multipart/form-data">	
+	Headline:<input type="text" name="headline" value="">
+	News:<input type="file" name="news" value="">
+	Category:<input type="text" name="category" value="">
+	Language:<input type="text" name="language" value="">
+	Length:<input type="text" name="length" value="">	
+	Longitude:<input type="text" name="longitude" value="">
+	Lattitude:<input type="text" name="lattitude" value="">
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+
+Delete news<form method="post" action="http://52.88.43.163:3000/delete_news">	
+	News id:<input type="text" name="news_id" value="">
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+
+Vote news<form method="post" action="http://52.88.43.163:3000/vote_news">	
+	News id:<input type="text" name="news_id" value="">
+	Status:<input type="text" name="status" value="">
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+Play news<form method="post" action="http://52.88.43.163:3000/play_news">	
+	News id:<input type="text" name="news_id" value="">
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+News feed<form method="post" action="http://52.88.43.163:3000/news_feed">
+	Category:<input type="text" name="category" value="">
+	Language:<input type="text" name="language" value="">
+	Offset:<input type="text" name="offset" value="">
+	Status:<input type="text" name="status" value="">	
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+Create playlist<form method="post" action="http://52.88.43.163:3000/create_playlist">
+	Playlist name:<input type="text" name="playlist_name" value="">
+	Playlist id:<input type="text" name="playlist_id" value="">
+	News id:<input type="text" name="news_id" value="">	
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+View all playlist<form method="post" action="http://52.88.43.163:3000/view_all_playlist">	
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+View playlist by id<form method="post" action="http://52.88.43.163:3000/view_playlist_by_id">	
+	Playlist id:<input type="text" name="playlist_id" value="">
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+Delete playlist<form method="post" action="http://52.88.43.163:3000/delete_playlist">	
+	Playlist id:<input type="text" name="playlist_id" value="">
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+Delete account<form method="post" action="http://52.88.43.163:3000/delete_account">	
+	Access token:<input type="text" name="access_token" value="">
+	<input type='submit' value="submit">
+</form>
+</body>
+</html>
